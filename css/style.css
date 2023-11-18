@@ -1,0 +1,302 @@
+/* ==================================================
+                   Font Link Start
+====================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* ==================================================
+                   Font Link End
+====================================================*/
+
+/* ==================================================
+                   Common Css Start
+====================================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+div,
+img,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --footerHeaderColor: #1c1e53;
+  --primaryTextColor: #282938;
+  --secondaryBgColor: #eef4fa;
+  --yellow: #fcd980;
+  --white: #fff;
+}
+
+/* ==================================================
+                   Common Css End
+====================================================*/
+
+/* ==================================================
+                   Nav part Css Start
+====================================================*/
+#nav-part {
+  background-color: var(--footerHeaderColor);
+  padding: 20px 0;
+}
+
+#nav-part .custome-nav ul li a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right: 32px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#nav-part .custome-nav ul li a:hover {
+  color: var(--white);
+}
+
+#nav-part .custome-nav .btn button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 41px;
+  border: 2px solid #f4f6fc33;
+  padding: 16px 48px;
+  margin-left: 40px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#nav-part .custome-nav .btn button:hover {
+  background-color: var(--yellow);
+  color: black;
+}
+/* ==================================================
+                   Nav part Css End
+====================================================*/
+
+/* ==================================================
+                   About part Css Start
+====================================================*/
+#about-part {
+  padding: 128px 0;
+}
+
+#about-part .about-left-part h5 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#about-part .about-left-part h1 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 74px;
+  padding-top: 8px;
+  padding-bottom: 31px;
+}
+
+#about-part .about-left-part p {
+  color: var(--primaryTextColor, #282938);
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+#about-part .about-right-part picture img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* ==================================================
+                   About part Css End
+====================================================*/
+
+/* ==================================================
+                   Goal part Css Start
+====================================================*/
+#goal-part {
+  background-color: var(--secondaryBgColor);
+  padding: 80px 0;
+}
+
+#goal-part .goal-content h6 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  line-height: none;
+}
+
+#goal-part .goal-content h2 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+#goal-part .goal-content p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 20px;
+}
+
+#goal-part .goal-content-right {
+  margin-top: 28px;
+}
+/* ==================================================
+                   Goal part Css End
+====================================================*/
+
+/* ==================================================
+                   Process part Css Start
+====================================================*/
+#process-part {
+  padding: 128px 0;
+}
+
+#process-part .process-heading h2 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+#process-part .process-content .line img {
+  position: relative;
+  margin-left: 38px;
+}
+
+#process-part .round {
+  width: 24px;
+  height: 24px;
+  background-color: #2405f2;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: absolute;
+}
+
+#process-part .process-content .process-text h3 {
+  margin-top: 32px;
+  color: var(--primaryTextColor, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+#process-part .process-content .process-text p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+/* ==================================================
+                   Process part Css End
+====================================================*/
+
+/* ==================================================
+                  Misson part Css Start
+====================================================*/
+#misson-part {
+  padding: 128px 0;
+  background-color: #eef4fa;
+}
+
+#misson-part .first-left-text h5 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#misson-part .first-left-text h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+#misson-part .first-left-text p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 46px;
+}
+
+#misson-part .second-line {
+  margin-top: 96px;
+}
+
+#misson-part .second-line .first-left-text {
+  margin-left: 55px;
+}
+
+#misson-part .second-line .first-left-text p {
+  padding: 0;
+}
+/* ==================================================
+                  Misson part Css End
+====================================================*/
+
+/* ==================================================
+                  Benefit part Css Start
+====================================================*/
+#benefit-part {
+  padding: 128px 0;
+}
+
+#benefit-part .benefit-heading h3 {
+  color: var(--primaryTextColor, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 48px;
+  padding: 0 257px;
+}
+/* ==================================================
+                  Benefit part Css End
+====================================================*/
